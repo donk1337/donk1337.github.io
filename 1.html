@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>简单视频播放页面</title>
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        video {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .video-box {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>视频播放页面</h1>
+    
+    <div class="video-box">
+        <h2>视频 1</h2>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            您的浏览器不支持视频播放。
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h2>视频 2</h2>
+        <video controls>
+            <source src="video2.mp4" type="video/mp4">
+            您的浏览器不支持视频播放。
+        </video>
+    </div>
+</body>
+</html> 
